@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0eCETReiDITd7JnOI1ArFLG2fSUWTOr090S+sT05ulTGJ/RBMEHa/w5Mrvp31e1EQNQ8s//x6e/bW8yV6TIc/A==",
+  "dgSpecHash": "2LvgsCYl8AKGZ+dxkuO4hbjc8iI+e1lh8Q9a+gC1jH5AxKLGbIm/hVATeH9gmBY6qk0hJem86WJ9W3XmhflGEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Long Dell\\Desktop\\111\\WebApplication7\\WebApplication7\\WebApplication7.csproj",
+  "projectFilePath": "C:\\Users\\Long Dell\\Desktop\\git\\demo-mvc-7\\WebApplication7\\WebApplication7.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Long Dell\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Long Dell\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
