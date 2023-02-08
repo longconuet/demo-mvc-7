@@ -10459,19 +10459,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Long Dell\\.nuget\\packages\\": {}
+    "C:\\Users\\Long NT\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Long Dell\\Desktop\\git\\demo-mvc-7\\WebApplication7\\WebApplication7.csproj",
+      "projectUniqueName": "C:\\Users\\Long NT\\Desktop\\git\\demo-mvc-7\\WebApplication7\\WebApplication7.csproj",
       "projectName": "WebApplication7",
-      "projectPath": "C:\\Users\\Long Dell\\Desktop\\git\\demo-mvc-7\\WebApplication7\\WebApplication7.csproj",
-      "packagesPath": "C:\\Users\\Long Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Long Dell\\Desktop\\git\\demo-mvc-7\\WebApplication7\\obj\\",
+      "projectPath": "C:\\Users\\Long NT\\Desktop\\git\\demo-mvc-7\\WebApplication7\\WebApplication7.csproj",
+      "packagesPath": "C:\\Users\\Long NT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Long NT\\Desktop\\git\\demo-mvc-7\\WebApplication7\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Long Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Long NT\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10543,7 +10543,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
