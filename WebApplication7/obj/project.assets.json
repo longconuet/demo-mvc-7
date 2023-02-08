@@ -1118,11 +1118,11 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/6.0.11": {
+      "Microsoft.EntityFrameworkCore.Design/6.0.13": {
         "type": "package",
         "dependencies": {
           "Humanizer.Core": "2.8.26",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.11"
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.13"
         },
         "compile": {
           "lib/net6.0/_._": {
@@ -1172,10 +1172,10 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/6.0.11": {
+      "Microsoft.EntityFrameworkCore.Tools/6.0.13": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "6.0.11"
+          "Microsoft.EntityFrameworkCore.Design": "6.0.13"
         },
         "compile": {
           "lib/net6.0/_._": {}
@@ -4947,10 +4947,10 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/6.0.11": {
-      "sha512": "2H9vcmv9PIboVMisL0izD+xaUaWeZ/jqqRJeaD8MKIDaKwZsdHE790Sa4fAHjZjzVgoraELRI7CscjPMfLE2jA==",
+    "Microsoft.EntityFrameworkCore.Design/6.0.13": {
+      "sha512": "ycFZrBWsQNhd9icPPd/HatodZp0Y3oAsyhvwPIpElhRnh50VrJ/Jl/PyY0uekkvafMBbhN/XS2Xkk3BgDNh5Tg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.design/6.0.11",
+      "path": "microsoft.entityframeworkcore.design/6.0.13",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4958,7 +4958,7 @@
         "build/net6.0/Microsoft.EntityFrameworkCore.Design.props",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.6.0.11.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.6.0.13.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
@@ -4990,17 +4990,17 @@
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Tools/6.0.11": {
-      "sha512": "GDmG27PBUbWjUCxDHOtXRkHZZNGLGWX/2eFyQI1mzLyVuFHKWPTojZlzjztchCA50d6+2LcZiEStps5OoP90eA==",
+    "Microsoft.EntityFrameworkCore.Tools/6.0.13": {
+      "sha512": "kdAm0P6MBGCIJ2gpxEwApMdHmiidiuE78mzna3D6dHuoeVyO+tb8redK2X31bEECUU8dYD7C+NfakBUCKgphuA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.tools/6.0.11",
+      "path": "microsoft.entityframeworkcore.tools/6.0.13",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/_._",
-        "microsoft.entityframeworkcore.tools.6.0.11.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.6.0.13.nupkg.sha512",
         "microsoft.entityframeworkcore.tools.nuspec",
         "tools/EntityFrameworkCore.PS2.psd1",
         "tools/EntityFrameworkCore.PS2.psm1",
@@ -10454,7 +10454,7 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.13",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.13",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.13",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.11",
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.13",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.11"
     ]
   },
@@ -10517,7 +10517,7 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[6.0.11, )"
+            "version": "[6.0.13, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",

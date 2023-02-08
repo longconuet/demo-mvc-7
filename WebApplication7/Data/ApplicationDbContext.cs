@@ -1,16 +1,22 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
+using System.Reflection.Emit;
 using WebApplication7.Models;
 
 namespace WebApplication7.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        public ApplicationDbContext(DbContextOptions options)
             : base(options)
         {
         }
+
+        public DbSet<Student> Students { set; get; }
+        public DbSet<Course> Courses { set; get; }
+        public DbSet<CourseStudent> CourseStudents { set; get; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -44,6 +50,17 @@ namespace WebApplication7.Data
             {
                 entity.ToTable("UserTokens");
             });
+
+            // configures one-to-many relationship
+            builder.Entity<CourseStudent>()
+                .HasOne(s => s.Course)
+                .WithMany(g => g.CourseStudents)
+                .HasForeignKey(s => s.CourseId);
+
+            builder.Entity<CourseStudent>()
+               .HasOne(s => s.Student)
+               .WithMany(g => g.CourseStudents)
+               .HasForeignKey(s => s.StudentId);
         }
     }
 }
