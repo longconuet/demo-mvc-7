@@ -73,5 +73,11 @@ namespace WebApplication7.Controllers
                 return false;
             }
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Register()
+        {
+            return View();
+        }
     }
 }
