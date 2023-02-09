@@ -9,18 +9,15 @@ namespace WebApplication7.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly ApplicationDbContext _context;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly IUserStore<ApplicationUser> _userStore;
         private readonly IUserEmailStore<ApplicationUser> _emailStore;
 
-        public AccountController(ApplicationDbContext context, 
-            SignInManager<ApplicationUser> signInManager, 
+        public AccountController(SignInManager<ApplicationUser> signInManager, 
             UserManager<ApplicationUser> userManager,
             IUserStore<ApplicationUser> userStore)
         {
-            _context = context;
             _signInManager = signInManager;
             _userManager = userManager;
             _userStore = userStore;
