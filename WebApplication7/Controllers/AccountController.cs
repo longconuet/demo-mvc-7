@@ -1,17 +1,9 @@
-﻿using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using WebApplication7.Data;
 using WebApplication7.Requests;
-using WebApplication7.Services;
 using Microsoft.AspNetCore.Identity;
 using WebApplication7.Models;
 using System.Net.Mail;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity.UI.Services;
-using Microsoft.AspNetCore.WebUtilities;
-using System.Text.Encodings.Web;
-using System.Text;
 
 namespace WebApplication7.Controllers
 {

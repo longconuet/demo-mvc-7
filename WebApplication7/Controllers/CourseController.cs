@@ -1,9 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Net.WebSockets;
-using System.Xml.Linq;
 using WebApplication7.Data;
-using WebApplication7.Models;
 using WebApplication7.ModelViews;
 using WebApplication7.Requests;
 using WebApplication7.Services;

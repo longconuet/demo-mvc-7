@@ -5,7 +5,6 @@ using WebApplication7.Services;
 using System.Data;
 using WebApplication7.Data;
 using Microsoft.EntityFrameworkCore;
-using WebApplication7.Models;
 
 namespace WebApplication7.Controllers
 {

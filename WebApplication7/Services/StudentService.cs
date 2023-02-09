@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using WebApplication7.Data;
+﻿using WebApplication7.Data;
 using WebApplication7.ModalViews;
 using WebApplication7.Models;
 using WebApplication7.Requests;
